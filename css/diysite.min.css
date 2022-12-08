@@ -527,6 +527,9 @@ body,html,.post-meta-date{
 #rightside #rightside-config-hide a{
   background: #425aef;
 }
+#rightside #rightside-config-show a{
+  background: #425aef;
+}
 
 /* 页脚颜色 */
 .copyright {
