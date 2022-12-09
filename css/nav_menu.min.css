@@ -21,59 +21,9 @@ button#go-up:hover #percent {
   background: var(--anzhiyu-main);
   transition: 0.3s;
 }
-
-#nav-totop:hover .totopbtn i {
-  opacity: 1;
-}
-#nav-totop #percent {
-  font-size: 12px;
-  background: var(--anzhiyu-white);
-  color: var(--anzhiyu-main);
-  width: 25px;
-  height: 25px;
-  border-radius: 35px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.3s;
-}
-.nav-fixed #nav-totop #percent,
-.page #nav-totop #percent {
-  background: var(--font-color);
-  color: var(--card-bg);
-  font-size: 13px;
-}
-
-#nav-totop {
-  width: 35px;
-}
-#page-header:not(.is-top-bar) #percent {
-  transition: 0.3s;
-}
-#page-header:not(.is-top-bar) #nav-totop {
-  width: 0;
-  opacity: 0;
-  transition: width 0.3s, opacity 0.2s;
-  margin-left: 0 !important;
-}
-#nav-totop #percent {
-  font-weight: 700;
-}
-#nav-totop:hover #percent {
-  opacity: 0;
-  transform: scale(1.5);
-  font-weight: 700;
-}
 #page-header #nav #nav-right div {
   margin-left: 0.5rem;
   padding: 0;
-}
-
-#nav-totop {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 0.3s;
 }
 .nav-button {
   cursor: pointer;
@@ -226,11 +176,6 @@ ul.menus_item_child {
   padding: 2px 0 4px 6px;
 }
 
-#nav-totop .totopbtn i {
-  position: absolute;
-  display: flex;
-  opacity: 0;
-}
 #page-name::before {
   font-size: 18px;
   position: absolute;
@@ -447,34 +392,12 @@ center#name-container {
   width: 25px;
 }
 
-#page-header #nav #menus .nav-button.long a.totopbtn,
-#page-header #nav #menus .nav-button.long,
-#page-header #nav #menus .nav-button.long a.totopbtn span {
-  width: 70px;
-}
-#page-header #nav #menus .nav-button.long a.totopbtn span {
-  border-radius: 35px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.3s;
-  white-space: nowrap;
-}
-
-#page-header #nav #menus .nav-button.long a.totopbtn:hover {
-  border-radius: 35px;
-  height: 30px;
-}
-
 #nav #search-button {
   padding-left: 0;
 }
 #page-header #nav .nav-button {
   margin-left: 0.5rem;
   padding: 0;
-}
-#page-header:not(.is-top-bar) #nav-totop a {
-  display: none;
 }
 #search-button a.site-page.social-icon.search span {
   display: none;
