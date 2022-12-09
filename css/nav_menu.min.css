@@ -16,6 +16,11 @@ button#go-up:hover #percent {
   display: none !important;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 #nav a:hover {
   background: var(--anzhiyu-main);
@@ -330,7 +335,9 @@ center#name-container {
 }
 .back-home-button .back-menu-list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 280px;
 }
 .back-home-button .back-menu-list::before {
   position: absolute;
@@ -353,6 +360,7 @@ center#name-container {
   margin: 4px 8px;
   padding: 4px 8px !important;
   transition: 0.3s;
+  width: 120px;
   border-radius: 8px;
 }
 .back-home-button .back-menu-list .back-menu-item .back-menu-item-text {
