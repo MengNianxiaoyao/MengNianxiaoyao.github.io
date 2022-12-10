@@ -152,6 +152,7 @@ ul.menus_item_child {
 }
 #nav {
   padding: 0 calc((100% - 1420px) / 2);
+  background: rgba(254, 254, 254, 0.7);
   backdrop-filter: saturate(180%) blur(20px);
 }
 
@@ -455,6 +456,10 @@ center#name-container {
   }
   #nav-totop {
     width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
   }
   #nav-totop #percent {
     font-weight: 700;
@@ -466,12 +471,6 @@ center#name-container {
   }
   #nav-totop:hover .totopbtn i {
     opacity: 1;
-  }
-  #nav-totop {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s;
   }
   #nav-totop .totopbtn i {
     position: absolute;
