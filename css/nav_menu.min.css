@@ -135,7 +135,7 @@ ul.menus_item_child {
 }
 
 @media screen and (min-width: 768px) {
-  .page .menus_item:hover > a.site-page {
+   .menus_item:hover > a.site-page {
     color: var(--anzhiyu-white) !important;
     background: var(--anzhiyu-main);
     transition: 0.3s;
@@ -159,7 +159,7 @@ ul.menus_item_child {
   border-radius: 8px;
   color: var(--font-color);
 }
-.page #nav a:hover {
+#nav a:hover {
   color: var(--anzhiyu-white) !important;
   background: var(--anzhiyu-main);
   transition: 0.3s;
@@ -448,7 +448,7 @@ center#name-container {
     width: 70px;
   }
   .nav-fixed #nav-totop #percent,
-  .page #nav-totop #percent {
+  #nav-totop #percent {
     background: var(--font-color);
     color: var(--card-bg);
     font-size: 13px;
