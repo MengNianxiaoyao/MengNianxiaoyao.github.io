@@ -263,11 +263,6 @@ center#name-container {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .mask-name-container {
-    display: none;
-  }
-}
 #sidebar #sidebar-menus .menus_items .site-page:hover {
   color: var(--anzhiyu-white);
   border-radius: var(--anzhiyu-border-radius);
@@ -416,6 +411,9 @@ center#name-container {
   }
 }
 @media screen and (max-width: 768px) {
+  .mask-name-container {
+    display: none;
+  }
   #page-header:not(.is-top-bar) #nav-totop {
     width: 0;
     opacity: 0;
