@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.lwtxiaoyao.top/posts/b250e9bb.html</loc>
+    
+    <lastmod>2022-12-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.lwtxiaoyao.top/posts/a66ae20.html</loc>
     
     <lastmod>2022-12-30</lastmod>
@@ -221,15 +230,6 @@
     <loc>https://blog.lwtxiaoyao.top/manifest.json</loc>
     
     <lastmod>2022-12-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.lwtxiaoyao.top/posts/b250e9bb.html</loc>
-    
-    <lastmod>2022-10-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
