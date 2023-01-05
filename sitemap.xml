@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.lwtxiaoyao.top/manifest.json</loc>
+    
+    <lastmod>2023-01-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.lwtxiaoyao.top/posts/54e5cace.html</loc>
     
     <lastmod>2023-01-05</lastmod>
@@ -226,15 +235,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://blog.lwtxiaoyao.top/manifest.json</loc>
-    
-    <lastmod>2022-12-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://blog.lwtxiaoyao.top/</loc>
@@ -246,6 +246,13 @@
   
   <url>
     <loc>https://blog.lwtxiaoyao.top/tags/%E8%A7%86%E9%A2%91/</loc>
+    <lastmod>2023-01-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.lwtxiaoyao.top/tags/%E4%BA%8B%E9%A1%B9/</loc>
     <lastmod>2023-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -265,17 +272,17 @@
     <priority>0.2</priority>
   </url>
   
+
+  
   <url>
-    <loc>https://blog.lwtxiaoyao.top/tags/%E4%BA%8B%E9%A1%B9/</loc>
+    <loc>https://blog.lwtxiaoyao.top/categories/%E7%99%BD%E5%A4%9C%E6%9E%81%E5%85%89%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2023-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://blog.lwtxiaoyao.top/categories/%E7%99%BD%E5%A4%9C%E6%9E%81%E5%85%89%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://blog.lwtxiaoyao.top/categories/%E4%BA%8B%E9%A1%B9%E9%A1%BB%E7%9F%A5/</loc>
     <lastmod>2023-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -297,13 +304,6 @@
   
   <url>
     <loc>https://blog.lwtxiaoyao.top/categories/%E7%BE%8E%E5%8C%96%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-01-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.lwtxiaoyao.top/categories/%E4%BA%8B%E9%A1%B9%E9%A1%BB%E7%9F%A5/</loc>
     <lastmod>2023-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
